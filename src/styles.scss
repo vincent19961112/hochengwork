@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@media (min-width: 0px) and (max-width: 374px) {
+  html {
+    font-size: 0.266666666vw;
+  }
+}
+
+@media (min-width: 375px) {
+  html {
+    font-size: 0.266666666vw;
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 0.173611111vw;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  html {
+    font-size: 0.130208333vw;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  html {
+    font-size: 0.100908173vw;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  html {
+    font-size: 0.08333333vw;
+  }
+}

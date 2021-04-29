@@ -1,0 +1,262 @@
+.todolist {
+  padding: 30rem 150rem;
+  position: relative;
+  background-color: #eeeeeeff;
+  .todolistcard {
+    height: 250rem;
+    border: 0.0625rem solid black;
+    .todolistheader {
+      padding: 0 14.25rem 0 11.26875rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 48.9375rem;
+      background-color: black;
+      h2 {
+        color: white;
+        width: 20rem;
+        margin-right: 8rem;
+      }
+      .line {
+        width: 100%;
+        padding-left: 20rem;
+        border: 0.0625rem solid white;
+      }
+    }
+  }
+  .todolistcontent {
+    padding: 0 14.25rem;
+    .todolisttable {
+      width: 100%;
+      font-size: 1.5rem;
+      tr {
+        width: 100%;
+        height: 35rem;
+        border-bottom: 0.0625rem solid black;
+        display: flex;
+        align-items: center;
+        padding-left: 0.75rem;
+        padding: 0 5rem;
+        th:nth-child(1) {
+          flex-basis: 40rem;
+        }
+        th:nth-child(2) {
+          flex-basis: 80rem;
+        }
+        th:nth-child(3) {
+          flex-basis: 260rem;
+        }
+        td:nth-child(1) {
+          flex-basis: 40rem;
+        }
+        td:nth-child(2) {
+          flex-basis: 80rem;
+        }
+        td:nth-child(3) {
+          flex-basis: 255rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 374px) {
+  .todolist {
+    padding: 30rem 54rem !important;
+    .todolistcard {
+      .todolistheader {
+        h2 {
+          width: 35rem !important;
+        }
+      }
+    }
+    .todolistcontent {
+      .todolisttable {
+        tr {
+          th:nth-child(1) {
+            flex-basis: 30rem !important;
+          }
+          th:nth-child(2) {
+            flex-basis: 40rem !important;
+          }
+          th:nth-child(3) {
+            flex-basis: 105rem !important;
+          }
+          td:nth-child(1) {
+            flex-basis: 30rem !important;
+          }
+          td:nth-child(2) {
+            flex-basis: 40rem !important;
+          }
+          td:nth-child(3) {
+            flex-basis: 100rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .todolist {
+    padding: 30rem 54rem !important;
+    .todolistcard {
+      .todolistheader {
+        h2 {
+          width: 30rem !important;
+        }
+      }
+    }
+    .todolistcontent {
+      .todolisttable {
+        tr {
+          th:nth-child(1) {
+            flex-basis: 30rem !important;
+          }
+          th:nth-child(2) {
+            flex-basis: 40rem !important;
+          }
+          th:nth-child(3) {
+            flex-basis: 105rem !important;
+          }
+          td:nth-child(1) {
+            flex-basis: 30rem !important;
+          }
+          td:nth-child(2) {
+            flex-basis: 40rem !important;
+          }
+          td:nth-child(3) {
+            flex-basis: 100rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .todolist {
+    padding: 30rem 130rem !important;
+    .todolistcard {
+      .todolistheader {
+        h2 {
+          width: 30rem !important;
+        }
+      }
+    }
+    .todolistcontent {
+      .todolisttable {
+        tr {
+          th:nth-child(3) {
+            flex-basis: 100rem !important;
+          }
+          td:nth-child(3) {
+            flex-basis: 93rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .todolist {
+    .todolistcard {
+      height: 350rem;
+      .todolistheader {
+        h2 {
+          color: white;
+          width: 30rem;
+          margin-right: 8rem;
+        }
+      }
+    }
+    .todolistcontent {
+      .todolisttable {
+        tr {
+          height: 40rem !important;
+          td:nth-child(3) {
+            flex-basis: 251rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .todolist {
+    padding: 30rem 187rem;
+  }
+  .todolistheader {
+    h2 {
+      width: 30rem !important;
+    }
+  }
+
+  .todolistcontent {
+    .todolisttable {
+      tr {
+        th:nth-child(1) {
+          flex-basis: 65rem !important;
+        }
+        th:nth-child(2) {
+          flex-basis: 80rem !important;
+        }
+        th:nth-child(3) {
+          flex-basis: 375rem !important;
+        }
+        td:nth-child(1) {
+          flex-basis: 65rem !important;
+        }
+        td:nth-child(2) {
+          flex-basis: 80rem !important;
+        }
+        td:nth-child(3) {
+          flex-basis: 365rem !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .todolist {
+    padding: 45rem 205rem !important;
+    .todolistcard {
+      height: 350rem !important;
+      .todolistheader {
+        h2 {
+          width: 30rem !important;
+        }
+      }
+    }
+
+    .todolistcontent {
+      .todolisttable {
+        tr {
+          height: 45rem;
+          th:nth-child(1) {
+            flex-basis: 65rem !important;
+          }
+          th:nth-child(2) {
+            flex-basis: 120rem !important;
+          }
+          th:nth-child(3) {
+            flex-basis: 502rem !important;
+          }
+          td:nth-child(1) {
+            flex-basis: 65rem !important;
+          }
+          td:nth-child(2) {
+            flex-basis: 120rem !important;
+          }
+          td:nth-child(3) {
+            flex-basis: 495rem !important;
+          }
+        }
+      }
+    }
+  }
+}

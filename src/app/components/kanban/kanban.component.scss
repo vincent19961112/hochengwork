@@ -1,0 +1,100 @@
+.Kanban {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 115rem;
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 230rem;
+    border-left: 0.0625rem solid black;
+    border-right: 0.0625rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      height: 107.125rem;
+      width: 107.125rem;
+      font-size: 10rem;
+      line-height: 107.125rem;
+      text-align: center;
+      list-style: none;
+      border: 0.0625rem solid black;
+      border-radius: 100%;
+      margin: 0 10rem;
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 374px) {
+  .Kanban {
+    padding: 0 66rem !important;
+    ul {
+      li {
+        margin: 0 5rem !important;
+        height: 55.125rem !important;
+        width: 55.125rem !important;
+        line-height: 55.125rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+  .Kanban {
+    padding: 0 66rem !important;
+    ul {
+      li {
+        height: 55.125rem !important;
+        width: 55.125rem !important;
+        line-height: 55.125rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Kanban {
+    ul {
+      li {
+        height: 80rem !important;
+        width: 80rem !important;
+        line-height: 80rem !important;
+        margin: 0 10rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Kanban {
+    padding-right: 126rem !important;
+    ul {
+      li {
+        height: 135rem !important;
+        width: 135rem !important;
+        line-height: 135rem !important;
+        margin: 0 40rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .Kanban {
+    padding: 0 125rem 0 115rem;
+    ul {
+      height: 280rem !important;
+      li {
+        height: 150rem !important;
+        width: 150rem !important;
+        font-size: 15rem !important;
+        line-height: 150rem !important;
+      }
+    }
+  }
+}
