@@ -114,7 +114,6 @@ header {
         padding-left: 0 !important;
         li {
           padding: 0 1.5rem !important;
-          font-size: 10rem !important;
         }
         .question {
           padding-top: 18.5rem !important;
@@ -123,12 +122,6 @@ header {
           }
           h4:nth-child(2) {
             width: 54.35rem !important;
-          }
-        }
-        li:nth-child(even) {
-        }
-        li:nth-child(5):hover {
-          .question {
           }
         }
       }
@@ -140,22 +133,10 @@ header {
   header {
     padding: 0 13.12rem 0 5rem !important;
     .nav {
-      .topnav {
-        li {
-        }
-        li :nth-child(1) {
-        }
-        li :nth-child(2) {
-        }
-
-        li:last-child {
-        }
-      }
       .bottomnav {
         padding-left: 0 !important;
         li {
           padding: 0 1.5rem !important;
-          font-size: 10rem !important;
         }
         .question {
           padding-top: 18.5rem !important;
@@ -164,12 +145,6 @@ header {
           }
           h4:nth-child(2) {
             width: 54.35rem !important;
-          }
-        }
-        li:nth-child(even) {
-        }
-        li:nth-child(5):hover {
-          .question {
           }
         }
       }
