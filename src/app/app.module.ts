@@ -13,7 +13,6 @@ import { NewComponent } from './pages/new/new.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { QuestionComponent } from './pages/question/question.component';
 import { LoginComponent } from './pages/login/login.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { KanbanComponent } from './components/kanban/kanban.component';
 import { TodolistComponent } from './components/todolist/todolist.component';
 import { PhotodetailComponent } from './components/photodetail/photodetail.component';
@@ -40,7 +39,6 @@ import { PhotodetailComponent } from './components/photodetail/photodetail.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
     HttpClientModule
   ],
   providers: [],
