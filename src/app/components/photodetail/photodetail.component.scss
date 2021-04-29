@@ -7,13 +7,15 @@
   min-height: 367rem;
   .gallery {
     margin-top: 12rem;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 323rem;
     flex-wrap: wrap;
+    width: 323rem;
     .photo {
+      object-fit: cover;
+      cursor: pointer;
       width: 90rem;
       height: 90rem;
       margin: 0 15rem 15rem 0;
@@ -46,6 +48,7 @@
       flex-direction: row !important;
       justify-content: center !important;
       align-items: center !important;
+      flex-wrap: wrap !important;
       .photo {
         width: 70rem !important;
         height: 70rem !important;
@@ -71,6 +74,7 @@
       flex-direction: row !important;
       justify-content: center !important;
       align-items: center !important;
+      flex-wrap: wrap !important;
       .photo {
         width: 70rem !important;
         height: 70rem !important;
@@ -96,6 +100,7 @@
       flex-direction: row !important;
       justify-content: center !important;
       align-items: center !important;
+      flex-wrap: wrap !important;
       .photo {
         width: 90rem !important;
         height: 90rem !important;
@@ -121,6 +126,7 @@
       flex-direction: row !important;
       justify-content: center !important;
       align-items: center !important;
+      flex-wrap: wrap !important;
       .photo {
         width: 120rem !important;
         height: 120rem !important;

@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+
+//components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -15,6 +17,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { KanbanComponent } from './components/kanban/kanban.component';
 import { TodolistComponent } from './components/todolist/todolist.component';
 import { PhotodetailComponent } from './components/photodetail/photodetail.component';
+
+//service
+
+
 
 @NgModule({
   declarations: [
@@ -34,7 +40,8 @@ import { PhotodetailComponent } from './components/photodetail/photodetail.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

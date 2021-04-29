@@ -1,14 +1,32 @@
 <section class="photodetail">
+  <ng-container *ngIf="photos; else Template">
   <div class="gallery">
-    <img src="" alt="" srcset="" class="photo">
-    <img src="" alt="" srcset="" class="photo">
-    <img src="" alt="" srcset="" class="photo">
-    <img src="" alt="" srcset="" class="photo">
-    <img src="" alt="" srcset="" class="photo">
-    <img src="" alt="" srcset="" class="photo">
+      <img src="https://multipleproduct.wacocolife.com{{photo.url}}" alt={{photo.alt}} srcset="" class="photo" title={{photo.title}} *ngFor="let photo of photos" (click)="detail(photo)">
+    </div>
+  </ng-container>
+  <ng-template #Template>
+    <div class="gallery">
+      <img src="" alt="" srcset="" class="photo">
+      <img src="" alt="" srcset="" class="photo">
+      <img src="" alt="" srcset="" class="photo">
+      <img src="" alt="" srcset="" class="photo">
+      <img src="" alt="" srcset="" class="photo">
+      <img src="" alt="" srcset="" class="photo">
+    </div>
+  </ng-template>
+
+  <ng-container *ngIf="hasDetail; else elseTemplate">
+     <div class="detail">
+       <h2>{{hasDetail.title}}</h2>
+       <div innerHTML={{hasDetail.note}}></div>
+     </div>
+  </ng-container>
+  <ng-template #elseTemplate>
+ <div class="detail">
+    <h2>標題(default)</h2>
+    <p>(defulat)請選一個文章</p>
   </div>
-  <div class="detail">
-    <h2>標題</h2>
-    <p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
-  </div>
+  </ng-template>
+
+
 </section>
