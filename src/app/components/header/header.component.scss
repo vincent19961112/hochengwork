@@ -70,6 +70,7 @@ header {
         display: none;
         flex-direction: column;
         h4:nth-child(1) {
+          font-size: 20px;
           margin: 0;
           padding-top: 4.76rem;
           padding-bottom: 2.38rem;
@@ -80,6 +81,7 @@ header {
           border: none;
         }
         h4:nth-child(2) {
+          font-size: 20px;
           margin: 0;
           padding-top: 2.38rem;
           padding-bottom: 4.76rem;
@@ -124,9 +126,11 @@ header {
           font-size: 14px !important;
           padding-top: 18.5rem !important;
           h4:nth-child(1) {
+            font-size: 14px !important;
             width: 54.35rem !important;
           }
           h4:nth-child(2) {
+            font-size: 14px !important;
             width: 54.35rem !important;
           }
         }
@@ -154,9 +158,11 @@ header {
           font-size: 15px !important;
           padding-top: 18.5rem !important;
           h4:nth-child(1) {
+            font-size: 15px !important;
             width: 54.35rem !important;
           }
           h4:nth-child(2) {
+            font-size: 15px !important;
             width: 54.35rem !important;
           }
         }
@@ -182,9 +188,11 @@ header {
           font-size: 16px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
+            font-size: 16px !important;
             width: 66.359rem !important;
           }
           h4:nth-child(2) {
+            font-size: 16px !important;
             width: 66.359rem !important;
           }
         }
@@ -218,9 +226,11 @@ header {
           font-size: 17px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
+            font-size: 17px !important;
             width: 66.359rem !important;
           }
           h4:nth-child(2) {
+            font-size: 17px !important;
             width: 66.359rem !important;
           }
         }
@@ -254,9 +264,11 @@ header {
           font-size: 18px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
+            font-size: 18px !important;
             width: 66.359rem !important;
           }
           h4:nth-child(2) {
+            font-size: 18px !important;
             width: 66.359rem !important;
           }
         }
@@ -272,9 +284,11 @@ header {
   .question {
     padding-top: 16.5rem !important;
     h4:nth-child(1) {
+      font-size: 20px !important;
       width: 74rem !important;
     }
     h4:nth-child(2) {
+      font-size: 20px !important;
       width: 74rem !important;
     }
   }
