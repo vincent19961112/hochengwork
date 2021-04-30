@@ -62,6 +62,7 @@ header {
         border-left: 0.0625rem solid black;
       }
       .question {
+        font-size: 20px;
         position: absolute;
         left: 0;
         margin: 0;
@@ -108,6 +109,11 @@ header {
       font-size: 30rem !important;
     }
     .nav {
+      .topnav {
+        li:last-child {
+          font-size: 12px;
+        }
+      }
       .bottomnav {
         padding-left: 0 !important;
         li {
@@ -115,6 +121,7 @@ header {
           padding: 0 1.5rem !important;
         }
         .question {
+          font-size: 14px !important;
           padding-top: 18.5rem !important;
           h4:nth-child(1) {
             width: 54.35rem !important;
@@ -132,6 +139,11 @@ header {
   header {
     padding: 0 13.12rem 0 5rem !important;
     .nav {
+      .topnav {
+        li:last-child {
+          font-size: 13px;
+        }
+      }
       .bottomnav {
         padding-left: 0 !important;
         li {
@@ -139,6 +151,7 @@ header {
           padding: 0 1.5rem !important;
         }
         .question {
+          font-size: 15px !important;
           padding-top: 18.5rem !important;
           h4:nth-child(1) {
             width: 54.35rem !important;
@@ -156,8 +169,17 @@ header {
   header {
     padding: 0 49.5rem 0 71.12rem !important;
     .nav {
+      .topnav {
+        li:last-child {
+          font-size: 14px;
+        }
+      }
       .bottomnav {
+        li {
+          font-size: 14px !important;
+        }
         .question {
+          font-size: 16px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
             width: 66.359rem !important;
@@ -178,8 +200,22 @@ header {
   header {
     padding: 0 45.5rem 0 71.12rem !important;
     .nav {
+      .topnav {
+        li:last-child {
+          font-size: 15px;
+        }
+        li:last-child {
+          width: 41rem !important;
+          height: 20rem !important;
+          line-height: 20rem !important;
+        }
+      }
       .bottomnav {
+        li {
+          font-size: 15px !important;
+        }
         .question {
+          font-size: 17px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
             width: 66.359rem !important;
@@ -200,8 +236,22 @@ header {
   header {
     padding: 0 45.5rem 0 71.12rem !important;
     .nav {
+      .topnav {
+        li:last-child {
+          font-size: 16px;
+        }
+        li:last-child {
+          width: 50rem !important;
+          height: 20rem !important;
+          line-height: 20rem !important;
+        }
+      }
       .bottomnav {
+        li {
+          font-size: 16px !important;
+        }
         .question {
+          font-size: 18px !important;
           padding-top: 19.5rem !important;
           h4:nth-child(1) {
             width: 66.359rem !important;
@@ -240,7 +290,6 @@ header {
       margin-right: 10rem !important;
     }
     li:last-child {
-      font-size: 0.874938rem !important;
       width: 41rem !important;
       height: 20rem !important;
       line-height: 20rem !important;
