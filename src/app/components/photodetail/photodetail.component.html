@@ -18,13 +18,13 @@
   <ng-container *ngIf="hasDetail; else elseTemplate">
      <div class="detail">
        <h2>{{hasDetail.title}}</h2>
-       <div innerHTML={{hasDetail.note}}></div>
+       <span  innerHTML={{hasDetail.note}}></span>
      </div>
   </ng-container>
   <ng-template #elseTemplate>
  <div class="detail">
     <h2>標題(default)</h2>
-    <p>(defulat)請選一個文章</p>
+    <span>(defulat)請選一個文章</span>
   </div>
   </ng-template>
 

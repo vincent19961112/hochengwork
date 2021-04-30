@@ -27,10 +27,11 @@
     height: 219.66875rem;
     border: 0.0625rem solid black;
     h2 {
-      font-size: 22.125rem;
+      font-size: 35px;
     }
-    p {
-      margin: 10rem 0;
+    span {
+      font-size: 13px;
+      margin-top: 15rem;
     }
   }
 }
@@ -57,6 +58,12 @@
     .detail {
       width: 280rem !important;
       order: 0 !important;
+      h2 {
+        font-size: 25px !important;
+      }
+      span {
+        font-size: 15px !important;
+      }
     }
   }
 }
@@ -83,6 +90,12 @@
     .detail {
       width: 280rem !important;
       order: 0 !important;
+      h2 {
+        font-size: 30px !important;
+      }
+      span {
+        font-size: 16px !important;
+      }
     }
   }
 }
@@ -109,6 +122,12 @@
     .detail {
       width: 350rem !important;
       order: 0 !important;
+      h2 {
+        font-size: 28px !important;
+      }
+      span {
+        font-size: 17px !important;
+      }
     }
   }
 }

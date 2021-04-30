@@ -38,7 +38,6 @@ header {
       }
 
       li:last-child {
-        font-size: 0.874938rem;
         font-weight: bold;
         text-align: center;
         width: 33rem;
@@ -55,6 +54,7 @@ header {
       list-style: none;
       border-right: 0.0625rem solid black;
       li {
+        font-size: 20px;
         position: relative;
         cursor: pointer;
         font-weight: Thin;
@@ -111,6 +111,7 @@ header {
       .bottomnav {
         padding-left: 0 !important;
         li {
+          font-size: 12px !important;
           padding: 0 1.5rem !important;
         }
         .question {
@@ -134,6 +135,7 @@ header {
       .bottomnav {
         padding-left: 0 !important;
         li {
+          font-size: 13px !important;
           padding: 0 1.5rem !important;
         }
         .question {
